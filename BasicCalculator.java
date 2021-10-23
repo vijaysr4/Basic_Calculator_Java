@@ -1,11 +1,8 @@
-
-public class BasicCalculator {
-  
+public class BasicCalculator {  
   // Constructor
   public BasicCalculator(){
 
-  }
-	  
+  }	  
   // add method
   public int add(int a, int b){
     int c;
@@ -41,16 +38,12 @@ public class BasicCalculator {
     return c4;
   }
 
-
   // main method
   public static void main(String[] args) {
     BasicCalculator myCalculator = new BasicCalculator();
-	System.out.println(myCalculator.add(5, 7));
+    System.out.println(myCalculator.add(5, 7));
 
     System.out.println(myCalculator.subtract(45, 11));
-
-
-
   }
 
 }
